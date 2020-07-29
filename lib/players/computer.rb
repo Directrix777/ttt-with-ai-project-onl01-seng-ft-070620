@@ -16,7 +16,11 @@ module Players
         if board.position(combo[0] + 1) == board.position(combo[1] + 1) || board.position(combo[2] + 1) == board.position(combo[1] + 1) || board.position(combo[0] + 1) == board.position(combo[2] + 1)
           #Identifies a setup if it exists
           taken_spots = combo.select{|num| num if board.taken?(num + 1)}
+<<<<<<< HEAD
           if taken_spots.length == 2
+=======
+          if taken_spots.length ==
+>>>>>>> f178879694c59368a76f056fe11d3890de1ecb68
             if combo.select{|num| board.position(num)}.include?(self.token)
             number = (combo.select{|num| num if board.position(num +1) == " "}[0] + 1).to_s
             board.update(number, self)

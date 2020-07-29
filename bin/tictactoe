@@ -32,6 +32,7 @@ if player_num == 1
   puts "Ok, let's play!"
   game.play
 end
+<<<<<<< HEAD
 
 if player_num == 2
   puts "Our version of Tic Tac Toe is customizable!"
@@ -44,3 +45,5 @@ if player_num == 2
   puts "Ok, let's play!"
   game.play
 end
+=======
+>>>>>>> f178879694c59368a76f056fe11d3890de1ecb68

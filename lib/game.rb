@@ -43,7 +43,10 @@ class Game
       self.board.display
       self.turn
     end
+<<<<<<< HEAD
     self.board.display
+=======
+>>>>>>> f178879694c59368a76f056fe11d3890de1ecb68
     if self.won?
       puts "Congratulations #{self.winner}!"
       puts "You won the round!"
